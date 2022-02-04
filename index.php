@@ -11,7 +11,14 @@
 <!-- <?php include_once __DIR__ . '/server/db.php'
     ?> -->
     <main id ="app">
-        ciao
+        <div v-for ="cars in autoUsate">
+            <img class="card-img" :src="cars.immagine" :alt="cars.modello">
+                <h4 >{{ cars.modello }}</h4>
+                <h5 >{{ cars.marca }}</h5>
+                <p >{{ cars.prezzo}}</p>
+                <div v-html="cars.accessori"></div>
+
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="js/script.js"></script>

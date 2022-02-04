@@ -17,7 +17,7 @@
             'potenza' => 110,
             'classe' => 'Euro 6',
             'localita' => 'Foggia',
-            'accessori' => '<ul><li>Cerchi in lega</li>, <li>Autoradio</li>,<li> Alzacristalli elettrici</li>,<li> Hill Holder</li><ul>',
+            'accessori' => '<ul><li>Cerchi in lega</li><li>Autoradio</li><li> Alzacristalli elettrici</li><li> Hill Holder</li><ul>',
             'trazione' => 'Anteriore',
             'immagine' => 'https://prod.pictures.autoscout24.net/listing-images/df963a1f-3319-448a-b537-b4c50b898a6d_19ee99f5-30ca-4a6e-87fd-0d9030b7430e.jpg/640x480.jpg'
         ],
@@ -38,7 +38,7 @@
             'potenza' => 85,
             'classe' => 'Euro 6',
             'localita' => 'Bergamo',
-            'accessori' => '<ul><li>Bluetooth</li>,<li> Ruotino</li>,<li> Kit fumatori</li></ul>',
+            'accessori' => '<ul><li>Bluetooth</li><li> Ruotino</li><li> Kit fumatori</li></ul>',
             'trazione' => 'Anteriore',
             'immagine' => 'https://prod.pictures.autoscout24.net/listing-images/b0b44b31-3c30-4144-9610-4e7e1f3f78d8_7860fbbf-0816-4117-970f-20675ce5a154.jpg/640x480.jpg'
         ],
@@ -59,7 +59,7 @@
             'potenza' => 80,
             'classe' => 'Euro 5',
             'localita' => 'Siracusa',
-            'accessori' => '<ul><li>Pneumatici estivi</li>, <li>Specchietti laterali elettrici</li>, <li>Volante multifunzione</li></ul>',
+            'accessori' => '<ul><li>Pneumatici estivi</li> <li>Specchietti laterali elettrici</li> <li>Volante multifunzione</li></ul>',
             'trazione' => 'Anteriore',
             'immagine' => 'https://prod.pictures.autoscout24.net/listing-images/43862707-3cb6-44e1-9481-7d5d2c847d1b_42098171-4ced-466e-950a-b7a39ce9b942.jpg/640x480.jpg'
         ],
@@ -80,7 +80,7 @@
             'potenza' => 50 ,
             'classe' => 'Euro 3',
             'localita' => 'Empoli',
-            'accessori' => '<ul><li>Computer di bordo</li>, <li>USB</li>, <li>Autoradio</li>,<li> Climatizzatore</li></ul>',
+            'accessori' => '<ul><li>Computer di bordo</li> <li>USB</li><li>Autoradio</li><li> Climatizzatore</li></ul>',
             'trazione' => 'Anteriore',
             'immagine' => 'https://prod.pictures.autoscout24.net/listing-images/f5e5b12a-cca7-4297-b72d-4d44a553f6cb_bd87cd06-4d9f-4966-af16-8092171cc9ce.jpg/640x480.jpg'
         ],
@@ -101,7 +101,7 @@
             'potenza' => 52 ,
             'classe' => 'Euro 4',
             'localita' => 'Firenze',
-            'accessori' => '<ul><li>Climatizzatore</li>, <li>Ruotino</li>, <li>Cerchioni in acciaio</li></ul>',
+            'accessori' => '<ul><li>Climatizzatore</li> <li>Ruotino</li> <li>Cerchioni in acciaio</li></ul>',
             'trazione' => 'Posteriore',
             'immagine' => 'https://prod.pictures.autoscout24.net/listing-images/c0b3bb6b-b44b-4410-9307-b1cd28ee5972_269ea467-3ccd-42e9-bfea-32bdce2fcdd5.jpg/640x480.jpg'
         ],
