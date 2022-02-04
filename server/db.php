@@ -107,37 +107,5 @@
         ],
     ];
 
-
-
-// var_dump($autoUsate);
-
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php 
-    
-    foreach ($autoUsate as  $auto) {
-        ?>
-        <div class="card-container">
-        <img style="heigth: 100px; width: 200px;" src="<?= $auto['immagine'] ?>" alt="">
-            <h4 ><?= $auto['modello']?></h4>
-            <h5 ><?= $auto['marca']?></h5>
-            <p ><?= $auto['colore']?></p>
-            <p ><?= $auto['prezzo']?></p>
-            <p ><?= $auto['carburante']?></p>
-            <p ><?= $auto['localita']?></p>
-            <p ><?= $auto['chilometri']?></p>
-            <p ><?= $auto['accessori']?></p>
-        </div>
-        <?php }; ?>
-
-</body>
-</html>
