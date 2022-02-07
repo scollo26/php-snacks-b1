@@ -11,12 +11,33 @@
 <!-- <?php include_once __DIR__ . '/server/db.php'
     ?> -->
     <main id ="app">
-        <div v-for ="cars in autoUsate">
-            <img class="card-img" :src="cars.immagine" :alt="cars.modello">
-                <h4 >{{ cars.modello }}</h4>
-                <h5 >{{ cars.marca }}</h5>
-                <p >{{ cars.prezzo}}</p>
-                <div v-html="cars.accessori"></div>
+    <form action="index.php" method="GET">
+            <label>Seleziona marca auto</label>
+            <select @change="filter" v-model="marca" name="type" id="type">
+                <option value="all">All</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">audi</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Ford">Ford</option>
+            </select>
+        </form>
+        <form action="index.php" method="GET">
+            <label>Seleziona colore</label>
+            <select @change="filter" v-model="color" name="color" id="color">
+                <option value="all">All</option>
+                <option value="bianco">Bianco</option>
+                <option value="nero">nero</option>
+                <option value="rosso">rosso</option>
+                <option value="blu">blu</option>
+                <option value="grigio">grigio</option>
+            </select>
+        </form>
+        <div v-for ="car in carsFiltered">
+            <img class="" :src="car.immagine" :alt="car.modello">
+                <h4 >{{ car.modello }}</h4>
+                <h5 >{{ car.marca }}</h5>
+                <p >{{ car.prezzo}}</p>
+                <div v-html="car.accessori"></div>
 
         </div>
     </main>
